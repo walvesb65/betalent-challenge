@@ -31,13 +31,11 @@ Este projeto foi desenvolvido como parte do processo seletivo para a vaga de Fro
    - Componentização atômica
    - Hooks customizados reutilizáveis
    - Tipagem TypeScript rigorosa
-   - Path aliases (@/) para imports limpos
 
 3. **Experiência do Usuário**
 
    - Loading states elegantes
    - Tratamento de erros amigável
-   - Transições suaves
    - Microinterações em hover/focus
 
 4. **Performance**
@@ -98,43 +96,37 @@ src/
 ### Pré-requisitos
 
 - Node.js (v18+)
-- Yarn ou npm
+- npm
 
 ### Instalação
 
 ```bash
 git clone git@github.com:walvesb65/betalent-challenge.git
 cd betalent-challenge
-yarn install
+npm install
 ```
 
 ### Ambiente de Desenvolvimento
 
 ```bash
 # Iniciar API mock (em outro terminal)
-yarn mock
+npm run mock
 
 # Iniciar aplicação
-yarn dev
+npm run dev
 ```
 
 ### Testes
 
 ```bash
 # Executar todos os testes
-yarn test
+npm run test
 
 # Executar com watcher
-yarn test:watch
+npm run test:watch
 
 # Gerar relatório de cobertura
-yarn test:coverage
-```
-
-### Build para Produção
-
-```bash
-yarn build
+npm run test:coverage
 ```
 
 ## 🌟 Destaques Técnicos
@@ -153,7 +145,6 @@ yarn build
 3. **Boas Práticas**
    - Error boundaries
    - Acessibilidade (WAI-ARIA)
-   - SEO básico
    - Tratamento de erros de API
 
 ## 📈 Próximos Passos (Roadmap)
@@ -172,4 +163,4 @@ yarn build
 
 ---
 
-Este projeto foi desenvolvido com ❤️ por [Willian Almeida Alves](https://www.linkedin.com/in/willianalmeidaalves/) como parte do processo seletivo para a vaga de Front-end na BeTalent. Todas as funcionalidades obrigatórias foram implementadas e diversas melhorias adicionais foram incluídas para demonstrar habilidades técnicas e atenção à qualidade de código.
+Este projeto foi desenvolvido por [Willian Almeida Alves](https://www.linkedin.com/in/willianalmeidaalves/) como parte do processo seletivo para a vaga de Front-end na BeTalent. Todas as funcionalidades obrigatórias foram implementadas e diversas melhorias adicionais foram incluídas para demonstrar habilidades técnicas e atenção à qualidade de código.
