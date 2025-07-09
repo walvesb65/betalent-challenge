@@ -103,7 +103,7 @@ src/
 ### Instalação
 
 ```bash
-git clone [url-do-repositorio]
+git clone git@github.com:walvesb65/betalent-challenge.git
 cd betalent-challenge
 yarn install
 ```
